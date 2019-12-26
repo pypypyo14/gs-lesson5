@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ブロックくずし</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="usage">← 左移動 / 右移動 →</p>
+        <div class="canvas-wrap">
+            <canvas id="myCanvas" width="480" height="320"></canvas>
+        </div>
+    </div>
+    <!-- sound effects from https://soundeffect-lab.info/ -->
+    <audio src="sound/brick.mp3" id="brick"></audio>
+    <audio src="sound/paddle.mp3" id="paddle"></audio>
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

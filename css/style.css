@@ -1,0 +1,14 @@
+body{
+    background: #EFDC05;
+}
+
+.container{
+    width:640px;
+    margin:0 auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.usage{
+    padding: 20px;
+}
